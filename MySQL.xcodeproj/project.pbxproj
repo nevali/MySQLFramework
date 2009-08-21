@@ -914,6 +914,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc64,
+					x86_64,
+					ppc,
+					i386,
+				);
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -940,6 +946,7 @@
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				"MACOSX_DEPLOYMENT_TARGET[arch=ppc64]" = 10.5;
 				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fno-implicit-templates",
@@ -949,6 +956,7 @@
 				"SDKROOT[arch=ppc64]" = macosx10.5;
 				"SDKROOT[arch=x86_64]" = macosx10.5;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -957,6 +965,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc64,
+					x86_64,
+					ppc,
+					i386,
+				);
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -979,6 +993,7 @@
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				"MACOSX_DEPLOYMENT_TARGET[arch=ppc64]" = 10.5;
 				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fno-implicit-templates",
@@ -988,6 +1003,7 @@
 				"SDKROOT[arch=ppc64]" = macosx10.5;
 				"SDKROOT[arch=x86_64]" = macosx10.5;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
