@@ -117,7 +117,6 @@
 		CD522FFA103E81D800A7DE08 /* dbug.c in Sources */ = {isa = PBXBuildFile; fileRef = CD522FB0103E81D700A7DE08 /* dbug.c */; };
 		CD522FFB103E81D800A7DE08 /* sanity.c in Sources */ = {isa = PBXBuildFile; fileRef = CD522FB1103E81D700A7DE08 /* sanity.c */; };
 		CD522FFC103E81D800A7DE08 /* client_settings.h in Headers */ = {isa = PBXBuildFile; fileRef = CD522FB3103E81D700A7DE08 /* client_settings.h */; };
-		CD522FFD103E81D800A7DE08 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD522FB4103E81D700A7DE08 /* CMakeLists.txt */; };
 		CD522FFE103E81D800A7DE08 /* errmsg.c in Sources */ = {isa = PBXBuildFile; fileRef = CD522FB5103E81D700A7DE08 /* errmsg.c */; };
 		CD522FFF103E81D800A7DE08 /* get_password.c in Sources */ = {isa = PBXBuildFile; fileRef = CD522FB6103E81D700A7DE08 /* get_password.c */; };
 		CD523000103E81D800A7DE08 /* libmysql.c in Sources */ = {isa = PBXBuildFile; fileRef = CD522FB7103E81D700A7DE08 /* libmysql.c */; };
@@ -758,7 +757,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
-				CD522FFD103E81D800A7DE08 /* CMakeLists.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
